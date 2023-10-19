@@ -69,10 +69,13 @@ a:hover {
     font-size: 12px;
 }
 
+
 .grid-container {
     display: grid;
     padding: 30px;
     padding-bottom: 115px;
+    max-width: 430px;
+    margin: 0 auto;
     grid-template-areas:
     "head"
     "microchip"
@@ -139,7 +142,7 @@ a:hover {
     line-height: 0;
 }
 
-@media screen and (min-width:660px){
+@media screen and (min-width:1320px){
     .grid-container{
     max-width: 960px;
     display: grid;
@@ -195,7 +198,7 @@ a:hover {
         height: 100%;
     }
 
-    @media screen and (min-width:1060px){
+    @media screen and (min-width:1920px){
         .grid-container{
         display: grid;
         grid-template-columns: 1fr 2fr 2.5fr;
